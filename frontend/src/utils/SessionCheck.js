@@ -31,7 +31,6 @@ const isTokenExpired = async (access_token) => {
     }
     catch (error){
         console.error('Error:', error);
-        console.error("やっほ")
         return false
     }
 };

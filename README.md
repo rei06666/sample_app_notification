@@ -20,7 +20,8 @@ AWS上に構築する
     AWS_LAMBDA_ARN="LambdaのARN"
     AWS_EVENTBRIDGE_ROLE_ARN="EventBridge用ロールのARN"
     AWS_COGNITO_CLIENT_ID="CognitoのクライアントID"
-    REACT_URL="フロントエンドのURL"
+    AWS_DEFAULT_REGION="使用するリージョン”"
+    FRONTEND_URL="フロントエンドのURL"
     ```
 
     /frontend/.env

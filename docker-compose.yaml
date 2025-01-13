@@ -19,4 +19,4 @@ services:
       - ./frontend:/app
     command: yarn start
     ports:
-      - "8000:3000"
+      - "80:3000"

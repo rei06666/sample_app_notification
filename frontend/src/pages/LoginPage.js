@@ -42,7 +42,7 @@ const LoginPage = () => {
       } 
     } catch (error) {
       console.error('Error:', error);
-      setErrorMessage("エラーが発生しました。");
+      setErrorMessage(`${error.message}`);
     }
   };
 

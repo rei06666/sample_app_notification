@@ -250,7 +250,7 @@ const NotificationPage = () => {
 
 const readNotifications = async () => {
   try {
-    const response = await fetch(`{process.env.REACT_APP_BACKEND_URL}/notification/read`, {  
+    const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/notification/read`, {  
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
