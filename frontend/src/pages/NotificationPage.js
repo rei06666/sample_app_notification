@@ -262,7 +262,6 @@ const readNotifications = async () => {
     return response
   } catch (error){
     console.error('Error:', error);
-    setErrorMessage('読み取り時にエラーが発生しました');
   }
 }
 export default NotificationPage;
