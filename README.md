@@ -17,6 +17,10 @@ AWS上に構築する
     /backend/.env
     ```bash
     AWS_DYNAMODB_NOTIFICATION_TABLE="DynamoDBのテーブル名"
+    AWS_LAMBDA_ARN="LambdaのARN"
+    AWS_EVENTBRIDGE_ROLE_ARN="EventBridge用ロールのARN"
+    AWS_COGNITO_CLIENT_ID="CognitoのクライアントID"
+    REACT_URL="フロントエンドのURL"
     ```
 
     /frontend/.env
